@@ -1,0 +1,15 @@
+.navFont {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+.navLink:after, .navLogo:after {
+  display: block;
+  content: "";
+  border-bottom: solid 2px #019fb6;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navLink:hover:after, .navLogo:hover:after {
+  transform: scaleX(1);
+}
