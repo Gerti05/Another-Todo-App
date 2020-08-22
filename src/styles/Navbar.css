@@ -2,12 +2,16 @@
   font-family: "Baloo Tamma 2", cursive;
 }
 
+.navLogo {
+color: #65617d !important;
+}
+
 .navLink:after, .navLogo:after {
   display: block;
   content: "";
-  border-bottom: solid 2px #019fb6;
+  border-bottom: solid 2px #6c63ff;
   transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
+  transition: 250ms ease-in-out;
 }
 
 .navLink:hover:after, .navLogo:hover:after {

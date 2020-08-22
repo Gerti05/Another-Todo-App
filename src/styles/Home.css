@@ -1,0 +1,14 @@
+.background {
+  background-image: url("../images/undraw_to_do_list_a49b.svg"), url("../images/undraw_to_do_xvvc.svg");
+  background-size: 350px;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed;
+  background-position: 2% 15%, 98% 85%;
+}
+
+.ToDoBody {
+  margin: 0 auto;
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  width: 50%;
+}
