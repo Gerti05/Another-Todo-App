@@ -12,9 +12,9 @@ export default class NavComponent extends Component {
     // Bootstrap navbar that uses react router dom for links.
     return (
       <div>
-        <Navbar className="navFont" bg="dark" variant="dark" expand="lg">
+        <Navbar className="navFont" data-test="testNav" bg="dark" variant="dark" expand="lg">
           <Container>
-            <Navbar.Brand className="navLogo" as={Link} to="/">
+            <Navbar.Brand className="navLogo" data-test="testLogo" as={Link} to="/">
               <FontAwesomeIcon icon="clipboard-list" /> GoList
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
